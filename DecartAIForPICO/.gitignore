@@ -10,7 +10,6 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /_[Aa]pk/
-/_[Aa]pk/DecartAIForPICO_BurstDebugInformation_DoNotShip/tempburstlibs/arm64-v8a/lib_burst_generated.txt
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
