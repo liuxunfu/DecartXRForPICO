@@ -1,0 +1,57 @@
+{
+  "name": "com.firedragongamestudio.simplewebrtc",
+  "displayName": "SimpleWebRTC",
+  "version": "1.5.0",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "description": "Unity-based WebRTC wrapper that facilitates peer-to-peer audio, video, and data communication over WebRTC.",
+  "dependencies": {
+    "com.unity.webrtc": "3.0.0",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "Audio",
+    "Multiplayer",
+    "WebRTC",
+    "Video",
+    "Networking",
+    "Tool",
+    "Video Streaming",
+    "Audio Streaming",
+    "Photon Unity Networking",
+    "Photon Fusion",
+    "Photon",
+    "Webcam",
+    "Websocket",
+    "Web",
+    "Visual Scripting"
+  ],
+  "author": {
+    "name": "FireDragonGameStudio",
+    "email": "info@wave-labs.dev",
+    "url": "https://www.wave-labs.dev/"
+  },
+  "samples": [
+    {
+      "displayName": "Example Scenes",
+      "description": "WebRTC sample scenes to demonstrate functionality.",
+      "path": "Samples~/ExampleScenes"
+    },
+    {
+      "displayName": "Photon Fusion 2 Sample Scene",
+      "description": "WebRTC sample scene to demonstrate functionality, while using Photon Fusion 2 for signaling. Make sure Photon Fusion 2 package is installed before importing this sample.",
+      "path": "Samples~/PhotonFusionSample"
+    },
+    {
+      "displayName": "Visual Scripting Sample",
+      "description": "VisualScripting nodes, events, utils, models and sample graph to use SimpleWebRTC with VisualScripting. Make sure Unity VisualScripting package is installed before importing this sample. Make sure to regenerate the VisualScripting nodes in project settings after import.",
+      "path": "Samples~/VisualScriptingSample"
+    },
+    {
+      "displayName": "Immersive Video Sample",
+      "description": "Sample scene to show immersive video transmission from a 3D scene. The video stream is a 360° video, either monoscopic or stereo in an over-under or side-by-side layout. The sample scenes use materials and RenderTextures from the Runtime folder. Note that streaming a 360° video takes a considerable amout of rendering resources.",
+      "path": "Samples~/ImmersiveSample"
+    }
+  ],
+  "_fingerprint": "65951065fdbf040ad2641ea9d475f4b92632e446"
+}
